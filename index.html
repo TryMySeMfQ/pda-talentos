@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contrate Talentos PdA | Programadores do Amanhã</title>
+  <meta name="description" content="Encontre e contrate programadores formados pela ONG Programadores do Amanhã para o seu próximo projeto freelancer." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">PdA <span>Talentos</span></a>
+      <nav class="nav">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#talentos">Ver talentos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Contrate quem já resolveu problemas de verdade.</h1>
+        <p>
+          Aqui você encontra programadores formados pela <strong>Programadores do Amanhã (PdA)</strong>,
+          uma ONG que forma jovens negros e indígenas para o mercado de TI. Cada perfil mostra um
+          resultado concreto que essa pessoa já entregou — não promessas, entregas reais.
+        </p>
+        <a href="#talentos" class="btn btn-primary">Ver talentos disponíveis</a>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="how-it-works">
+      <div class="container">
+        <h2>Como funciona</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="step-number">1</span>
+            <h3>Escolha o talento</h3>
+            <p>Filtre por área e tecnologia e veja o que cada pessoa já entregou para outros clientes.</p>
+          </div>
+          <div class="step">
+            <span class="step-number">2</span>
+            <h3>Entre em contato</h3>
+            <p>Chame direto no WhatsApp ou e-mail e explique o seu projeto.</p>
+          </div>
+          <div class="step">
+            <span class="step-number">3</span>
+            <h3>Contrate</h3>
+            <p>Combine escopo, prazo e valor diretamente com o programador, sem intermediários.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container about-inner">
+        <h2>Por que contratar um talento PdA?</h2>
+        <p>
+          Na PdA, a formação técnica anda junto com o desenvolvimento da <strong>mentalidade High Agency</strong>:
+          a capacidade de agir diante de problemas em vez de esperar instruções, de pensar com clareza sobre
+          o que realmente importa para quem contrata, e de propor soluções novas em vez de repetir o óbvio.
+          Por isso, cada perfil aqui mostra um resultado concreto, não apenas uma lista de tecnologias.
+        </p>
+      </div>
+    </section>
+
+    <section id="talentos" class="talents">
+      <div class="container">
+        <h2>Talentos disponíveis</h2>
+
+        <div class="filters">
+          <input type="search" id="search-input" placeholder="Buscar por nome ou tecnologia..." aria-label="Buscar talentos" />
+          <select id="area-filter" aria-label="Filtrar por área">
+            <option value="">Todas as áreas</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Full Stack">Full Stack</option>
+            <option value="Dados">Dados</option>
+          </select>
+        </div>
+
+        <div id="students-grid" class="students-grid"></div>
+        <p id="empty-state" class="empty-state" hidden>Nenhum talento encontrado com esses filtros.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="contact-modal" class="modal" hidden>
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Fechar">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Feito para conectar talentos da Programadores do Amanhã a quem precisa de projetos freelancer.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

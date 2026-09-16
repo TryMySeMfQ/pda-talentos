@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Beatriz Souza",
+    "foto": "assets/img/placeholder.svg",
+    "cidade": "São Paulo, SP",
+    "area": "Frontend",
+    "stack": ["HTML", "CSS", "JavaScript", "React"],
+    "disponibilidade": "Disponível",
+    "resultadoConcreto": "Criou o site de vendas de uma confeitaria local que passou a receber pedidos pelo WhatsApp direto da página, aumentando em 40% os pedidos online no primeiro mês.",
+    "bio": "Gosta de transformar ideias soltas em telas que resolvem um problema real do cliente, sem enrolação.",
+    "whatsapp": "5511999990001",
+    "email": "ana.souza@example.com",
+    "github": "https://github.com/anabsouza",
+    "linkedin": "https://linkedin.com/in/anabsouza"
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Eduardo Lima",
+    "foto": "assets/img/placeholder.svg",
+    "cidade": "Recife, PE",
+    "area": "Backend",
+    "stack": ["Node.js", "Express", "PostgreSQL"],
+    "disponibilidade": "Disponível",
+    "resultadoConcreto": "Construiu uma API de controle de estoque para uma loja de peças que eliminou as planilhas manuais e reduziu erros de contagem em 90%.",
+    "bio": "Foca em entender o processo do negócio antes de escrever a primeira linha de código.",
+    "whatsapp": "5581999990002",
+    "email": "carlos.lima@example.com",
+    "github": "https://github.com/cardulima",
+    "linkedin": "https://linkedin.com/in/cardulima"
+  },
+  {
+    "id": 3,
+    "nome": "Fernanda Kaingang",
+    "foto": "assets/img/placeholder.svg",
+    "cidade": "Curitiba, PR",
+    "area": "Full Stack",
+    "stack": ["JavaScript", "React", "Node.js", "MongoDB"],
+    "disponibilidade": "Em projeto",
+    "resultadoConcreto": "Desenvolveu um sistema de agendamento para uma clínica de estética que reduziu o tempo de marcação de consultas de 15 para 2 minutos por cliente.",
+    "bio": "Prefere entregar uma versão simples que funciona hoje do que uma versão perfeita daqui a um mês.",
+    "whatsapp": "5541999990003",
+    "email": "fernanda.kaingang@example.com",
+    "github": "https://github.com/ferkaingang",
+    "linkedin": "https://linkedin.com/in/ferkaingang"
+  },
+  {
+    "id": 4,
+    "nome": "João Pedro Santos",
+    "foto": "assets/img/placeholder.svg",
+    "cidade": "Salvador, BA",
+    "area": "Dados",
+    "stack": ["Python", "SQL", "Power BI"],
+    "disponibilidade": "Disponível",
+    "resultadoConcreto": "Montou um painel de vendas para um pequeno mercado que mostrou quais produtos davam prejuízo, gerando corte de custos de R$ 1.200 por mês.",
+    "bio": "Curioso por natureza: gosta de abrir a planilha bagunçada de qualquer cliente e achar a história escondida nos números.",
+    "whatsapp": "5571999990004",
+    "email": "joao.santos@example.com",
+    "github": "https://github.com/jpsantosdev",
+    "linkedin": "https://linkedin.com/in/jpsantosdev"
+  }
+]
